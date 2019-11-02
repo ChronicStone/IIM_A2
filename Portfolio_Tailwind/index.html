@@ -13,7 +13,7 @@
 </head>
 
 <body class="bg-white">
-    
+    <!-- Navbar top-->
     <nav class="z-50 fixed pin-t pin-l flex items-center justify-between flex-wrap bg-transparent w-screen">
         <div class="w-full flex justify-between items-center py-4 bg-transparent fixed z-10 top-0">
             <div class="flex-shrink-0 ml-10 cursor-pointer">
@@ -65,15 +65,13 @@
 
 
 
-    <!-- Menu de navigation top" -->
+    <!-- Menu de navigation top (2nde occur, pour l'apparition de la barre apres qu'on ait scroll" -->
     <div class="w-full flex justify-between items-center py-4 bg-yellow-600 shadow-lg fixed z-10 top-0">
         <div class="flex-shrink-0 ml-10 cursor-pointer">
             <i class="fas fa-hashtag fa-2x text-orange-600"></i>
             <span class="ml-1 text-3xl text-blue-100 font-semibold italic"> MyPortfolio </span>
         </div>
-        
         <i class="fas fa-bars fa-2x visible md:invisible mr-10 md:mr-0 text-blue-200 cursor-pointer"></i>
-        
         <ul class="hidden md:flex overflow-x-hidden mr-10 font-semibold">
             <li class="mr-6 p-1 border-b-2 border-orange-600">
                 <a class="text-white cursor-default" href="#"> Accueil </a>
@@ -94,70 +92,64 @@
 
     <!-- Section "Présentation perso" -->
     <div class="w-full h-auto m-auto p-5 bg-gray-800" id="presentation">
-        <div class="w-full bg-transparent mt-20 hideme">
+        <div class="w-full bg-transparent mt-20 hideme mb-20">
             <div class="flex flex-wrap text-center text-white">
-
-        
-
-        <div class="w-full md:w-2/3 p-5 border-r border-blue-800 md:text-left">
-          <div class="my-2 ml-3 text-xl font-semibold"> À PROPOS DE Moi </div>
-          <p class="p-3 text-gray-400">Je m'appelle Cyprien THAO, et suis élève en 2ème année à <a href="https://www.iim.fr/" class="italic text-gray-500"> l'IIM </a>en cursus <span class="italic text-gray-500">Développement web.</span> Je suis passionné par l'univers du digital, et j'ai toujours été très intéressé de savoir comment fonctionnaient les outils, logiciels et mêmes jeux vidéos que je pouvais utiliser.</p>
-          <p class="p-3 text-gray-400"> En dehors du digital, j'aime énormément le dessin et tout ce qui s'y rapporte. Je suis aussi grand fan d'animation japonaise et de mangas, mais ma plus grande passion reste mon sport : le volleyball, que je pratique environ 10h par semaines, soit une part très conséquente de mon temps.   </p>
-          <p class="p-3 text-gray-400"> Je suis une personne très à l'aise avec les outils informatique, et possède une importante capacité à m'autoformer au fonctionnement des outils que j'utilise, et j'estime que c'est ce qui fait ma force lorsqu'on parle de développement web.  </p>
-        </div>
-
-        
-
-        <div class="w-full md:w-1/3 p-5 flex justify-around mt-12">
-            <div class="align-middle" mt-20>
-                <div class="h-24 w-24 ml-2 mt-12 mb-6 text-xl font-semibold rounded-full bg-yellow-600 avatar"></div>
-                <div class="my-2 text-sm">CYPRIEN THAO </div>
-                <div class="my-2 text-white text-gray-500 text-xs w-full text-center tracking-wider font-sans">Etudiant A2 à l'IIM </div>
-
+                <div class="w-full md:w-2/3 p-5 border-r border-blue-800 md:text-left">
+                <div class="my-2 ml-3 text-xl font-semibold"> À PROPOS DE Moi </div>
+                <p class="p-3 text-gray-400">Je m'appelle Cyprien THAO, et suis élève en 2ème année à <a href="https://www.iim.fr/" class="italic text-gray-500"> l'IIM </a>en cursus <span class="italic text-gray-500">Développement web.</span> Je suis passionné par l'univers du digital, et j'ai toujours été très intéressé de savoir comment fonctionnaient les outils, logiciels et mêmes jeux vidéos que je pouvais utiliser.</p>
+                <p class="p-3 text-gray-400"> En dehors du digital, j'aime énormément le dessin et tout ce qui s'y rapporte. Je suis aussi grand fan d'animation japonaise et de mangas, mais ma plus grande passion reste mon sport : le volleyball, que je pratique environ 10h par semaines, soit une part très conséquente de mon temps.   </p>
+                <p class="p-3 text-gray-400"> Je suis une personne très à l'aise avec les outils informatique, et possède une importante capacité à m'autoformer au fonctionnement des outils que j'utilise, et j'estime que c'est ce qui fait ma force lorsqu'on parle de développement web.  </p>
             </div>
-            
-            <ul class="pb-10">                                          
-                <li>                         
-                    <div class="flex flex-col py-2">                             
-                        <div class="text-xs text-gray-500 pb-1 uppercase"> HTML5 </div>                             
-                        <div class="w-40 h-1 bg-gray-400 rounded overflow-hidden">                                 
-                            <div class="bg-blue-400 h-full" style="width: 90%;"></div>                             
-                        </div>                         
-                    </div>                     
-                </li>                     
-                <li>                         
-                    <div class="flex flex-col py-2">                             
-                        <div class="text-xs text-gray-500 pb-1 uppercase"> CSS3 </div>                             
-                        <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                 
-                            <div class="bg-blue-400 h-full" style="width: 75%;"></div>                             
-                        </div>                         
-                    </div>                     
-                </li>                     
-                <li>                         
-                    <div class="flex flex-col py-2">                             
-                        <div class="text-xs text-gray-500 pb-1 uppercase"> Javascript / Jquery </div>                             
-                        <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                 
-                            <div class="bg-blue-400 h-full" style="width: 35%;"></div>                             
-                        </div>                         
-                    </div>                     
-                </li>                     
-                <li>                         
-                    <div class="flex flex-col py-2">                            
-                        <div class="text-xs text-gray-500 pb-1 uppercase"> PHP </div>                             
-                        <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                 
-                            <div class="bg-blue-400 h-full" style="width: 30%;"></div>                            
-                        </div>                         
-                    </div>                     
-                </li>                     
-                <li>                         
-                    <div class="flex flex-col py-2">                             
-                        <div class="text-xs text-gray-500 pb-1 uppercase"> tailwind </div>                             
-                        <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                
-                            <div class="bg-blue-400 h-full" style="width: 60%;"></div>                            
-                        </div>                         
-                    </div>                     
-                </li> 
-                <li>                         
+
+            <div class="w-full md:w-1/3 p-5 flex justify-around mt-12">
+                <div class="align-middle" mt-20>
+                    <div class="h-24 w-24 ml-2 mt-12 mb-6 text-xl font-semibold rounded-full bg-yellow-600 avatar"></div>
+                    <div class="my-2 text-sm">CYPRIEN THAO </div>
+                    <div class="my-2 text-white text-gray-500 text-xs w-full text-center tracking-wider font-sans">Etudiant A2 à l'IIM </div>
+                </div>
+                
+                <ul class="pb-10">                                          
+                    <li>                         
+                        <div class="flex flex-col py-2">                             
+                            <div class="text-xs text-gray-500 pb-1 uppercase"> HTML5 </div>                             
+                            <div class="w-40 h-1 bg-gray-400 rounded overflow-hidden">                                 
+                                <div class="bg-blue-400 h-full" style="width: 90%;"></div>                             
+                            </div>                         
+                        </div>                     
+                    </li>                     
+                    <li>                         
+                        <div class="flex flex-col py-2">                             
+                            <div class="text-xs text-gray-500 pb-1 uppercase"> CSS3 </div>                             
+                            <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                 
+                                <div class="bg-blue-400 h-full" style="width: 75%;"></div>                             
+                            </div>                         
+                        </div>                     
+                    </li>                     
+                    <li>                         
+                        <div class="flex flex-col py-2">                             
+                            <div class="text-xs text-gray-500 pb-1 uppercase"> Javascript / Jquery </div>                             
+                            <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                 
+                                <div class="bg-blue-400 h-full" style="width: 35%;"></div>                             
+                            </div>                         
+                        </div>                     
+                    </li>                     
+                    <li>                         
+                        <div class="flex flex-col py-2">                            
+                            <div class="text-xs text-gray-500 pb-1 uppercase"> PHP </div>                             
+                            <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                 
+                                <div class="bg-blue-400 h-full" style="width: 30%;"></div>                            
+                            </div>                         
+                        </div>                     
+                    </li>                     
+                    <li>                         
+                        <div class="flex flex-col py-2">                             
+                            <div class="text-xs text-gray-500 pb-1 uppercase"> tailwind </div>                             
+                            <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                
+                                <div class="bg-blue-400 h-full" style="width: 60%;"></div>                            
+                            </div>                         
+                        </div>                     
+                    </li> 
+                    <li>                         
                         <div class="flex flex-col py-2">                             
                             <div class="text-xs text-gray-500 pb-1 uppercase"> suite adobe </div>                             
                             <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">                                
@@ -165,9 +157,9 @@
                             </div>                         
                         </div>                     
                     </li>                       
+                </div>
+            </div>
         </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-&nbsp;&nbsp;&nbsp;&nbsp;</div>
     </div>
 
     <!-- Section "Mes experiences pro" -->
@@ -228,7 +220,7 @@
 
                 <div class="relative w-48 h-64 m-5 bg-white shadow-lg rounded">
                     <div class="flex items-center w-48 h-20 bg-yellow-600 rounded-t">
-                        <i class="fas fa-bezier-curve fa-3x mx-auto text-white"></i>
+                        <i class="fas fa-sign-in-alt fa-3x mx-auto text-white"></i>
                     </div>
                     <p class="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase"> LOGIN PANNEL </p>
                     <p class="p-2 text-sm text-gray-700"> Interface de connexion html/css réalisée pour un panneau admin backoffice d'un projet. </p>
@@ -239,7 +231,7 @@
 
                 <div class="relative w-48 h-64 m-5 bg-white shadow-lg rounded">
                     <div class="flex items-center w-48 h-20 bg-yellow-600 rounded-t">
-                        <i class="fas fa-bezier-curve fa-3x mx-auto text-white"></i>
+                        <i class="fas fa-mask fa-3x mx-auto text-white"></i>
                     </div>
                     <p class="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase"> DEADPOOL PROJECT </p>
                     <p class="p-2 text-sm text-gray-700"> Projet de site communautaire sur le thème du superhéros deadpool. </p>
@@ -250,7 +242,7 @@
 
                 <div class="relative w-48 h-64 m-5 bg-white shadow-lg rounded">
                     <div class="flex items-center w-48 h-20 bg-yellow-600 rounded-t">
-                        <i class="fas fa-bezier-curve fa-3x mx-auto text-white"></i>
+                        <i class="fas fa-edit fa-3x mx-auto text-white"></i>
                     </div>
                     <p class="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase"> C# updater </p>
                     <p class="p-2 text-sm text-gray-700"> Updater automatique réaliser en C# permettant de faire des MaJ depuis un FTP. </p>
@@ -261,7 +253,7 @@
 
                 <div class="relative w-48 h-64 m-5 bg-white shadow-lg rounded">
                     <div class="flex items-center w-48 h-20 bg-yellow-600 rounded-t">
-                        <i class="fas fa-bezier-curve fa-3x mx-auto text-white"></i>
+                        <i class="far fa-compass fa-3x mx-auto text-white"></i>
                     </div>
                     <p class="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase"> WEBSITE TEMPLATE </p>
                     <p class="p-2 text-sm text-gray-700"> Template d'un site web réalisé sous photoshop mais non découpé & intégré html/css. </p>
