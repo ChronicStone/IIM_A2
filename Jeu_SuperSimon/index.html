@@ -7,8 +7,12 @@
     <title>SuperSimon</title>
     <link rel="stylesheet" type="text/css" media="screen" href="Template/style.css">
     <script src="https://kit.fontawesome.com/ee774add5b.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+</head>
 <body>
+
+
     <section class="css-grid" style="margin-top:5%;">
         <div class="blocGrid"></div>
         <div class="blocGrid"></div>
@@ -43,15 +47,15 @@
         </div>
         <div class="blocGrid">
             <div class="elementNav">
-                <div class="btnNav">
+                <a id="inline" class="btnNav" onclick="showRules()">
                     <div class="icon fas fa-info"></div>
-                </div>
-                <div class="btnNav">
+                </a>
+                <a href="" class="btnNav">
                     <div class="icon fas fa-play"></div>
-                </div>
-                <div class="btnNav">
+                </a>
+                <a href="" class="btnNav">
                     <div class="icon fas fa-undo"></div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="blocGrid buttonBlock">
@@ -71,6 +75,20 @@
     </section>
 
     <script src="JS/script.js"></script>
+
+
+
 </body>
+
+    <!-- CODE POUR LE CONTENU DU POPUP DES REGLES-->
+    <div id="rules" style="display:none">
+            <div id="darkLayer"></div>
+            <div id="gameRules">
+                <div id="rulesTitle">
+                    > Règles du super simon <
+                    <span class="closebtn far fa-times-circle" onclick="hideRules()"></span>
+                </div>
+            </div>
+        </div>
 </html>
 
