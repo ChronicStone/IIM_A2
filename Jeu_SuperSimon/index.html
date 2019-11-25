@@ -12,13 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
     <section class="css-grid" style="margin-top:5%;">
         <div class="blocGrid"></div>
         <div class="blocGrid"></div>
         <div class="blocGrid buttonBlock">
-            <div class="button b1"></div>
+            <div class="button b1" id="1"></div>
         </div>
         <div class="blocGrid"></div>
         <div class="blocGrid"></div>
@@ -27,16 +25,16 @@
     <section class="css-grid">
         <div class="blocGrid"></div>
         <div class="blocGrid buttonBlock">
-            <div class="button b2"></div>
+            <div class="button b2" id="2"></div>
         </div>
         <div class="blocGrid midMenu">
             <ul>
-                <li>Niveau <span> 1 </span></li>
-                <li>Touches restantes <span> 4 </span> :</li>
+                <li>Niveau <span id="countLvl"> 0 </span></li>
+                <li>Touches restantes <span id="restBtn"> 4 </span> :</li>
             </ul>
         </div>
         <div class="blocGrid buttonBlock">
-            <div class="button b3"></div>
+            <div class="button b3" id="3"></div>
         </div>
         <div class="blocGrid"></div>
     </section>
@@ -44,14 +42,14 @@
     <section class="css-grid">
         <div class="blocGrid"></div>
         <div class="blocGrid buttonBlock">
-            <div class="button b4"></div>
+            <div class="button b4" id="4"></div>
         </div>
         <div class="blocGrid">
             <div class="elementNav">
                 <a id="inline" class="btnNav" onclick="showRules()">
                     <div class="icon fas fa-info"></div>
                 </a>
-                <a href="" class="btnNav">
+                <a class="btnNav" onclick="startGame()">
                     <div class="icon fas fa-play"></div>
                 </a>
                 <a href="" class="btnNav">
@@ -60,7 +58,7 @@
             </div>
         </div>
         <div class="blocGrid buttonBlock">
-            <div class="button b5"></div>
+            <div class="button b5" id="5"></div>
         </div>
         <div class="blocGrid"></div>
     </section>  
@@ -69,7 +67,7 @@
         <div class="blocGrid"></div>
         <div class="blocGrid"></div>
         <div class="blocGrid buttonBlock">
-            <div class="button b6"></div>
+            <div class="button b6" id="6"></div>
         </div>
         <div class="blocGrid"></div>
         <div class="blocGrid"></div>
